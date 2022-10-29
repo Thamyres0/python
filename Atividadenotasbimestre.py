@@ -7,10 +7,15 @@ bimestreQuatro = float(input("digite a nota para o quarto bimestre: 0 a 25"))
 
 notaFinal = (bimestreUm + bimestreDois + bimestreTres + bimestreQuatro)
 
+print("a nota anual do aluno foi: ", notaFinal)
 if (notaFinal >= 60):
     print("aluno aprovado")
-elif (notaFinal < 60 or notaFinal >= 40):
-    print("aluno em recuperação")
-elif (notaFinal < 40):
+elif (notaFinal <40):
     print("aluno reprovado")
+elif (notaFinal < 60 or notaFinal <=40):
+    print("aluno em recuperação")
+
+
+
+
 

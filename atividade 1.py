@@ -3,19 +3,27 @@
 lista = [0,0,0,0,0,0,0,0,0,0]
 
 for i in range(10):
-    lista[i] = str(input ("digite uma letra para cada posição: "))
-vogal = input ("a", "e", "i", "o", "u" )
+    lista[i] = input("digite uma letra para cada posição: ")
 
-Lista = str(input("digite uma letra"))
-encontrado = False
+print(lista)
+
+consoante = 0
 
 for i in range(10):
-    if(Lista[i] == Lista):
-        print("letra encontrada: ",Lista, "na posição", Lista[i])
-        encontrado = True
-    if(encontrado is False):
-        print("nao fo encontrado na busca sua lista")
-    print[Lista]
+    if not (lista[i] == str("a") or lista[i] == "e" or lista[i] == "i" or lista[i] == "o" or lista[i] == "u" ):
+        print("consoante na posição " + str(1+1) +": ", lista[i])
+        consoante=consoante+1
+
+print("o numero total de consoantes é" , consoante)
+
+
+
+
+
+
+
+
+
 
 
 
